@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+    clock_t start, end;
+    start = clock();
+
+    $0
+
+    end = clock();
+    double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
+    cout << "Time taken by program is : " << fixed << setprecision(5)
+         << time_taken << " sec"
+         << "\n";
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>timeclock</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c++, source.c</scope>
+</snippet>

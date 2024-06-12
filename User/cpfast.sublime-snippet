@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+#define nl '\n'
+signed main() {
+    cin.tie(nullptr)->sync_with_stdio(false);
+    ${1:}
+    return 0;
+}
+]]></content>
+	 <tabTrigger>cppfast</tabTrigger>
+</snippet>

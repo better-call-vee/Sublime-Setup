@@ -1,0 +1,43 @@
+{
+    "name": "Custom Color Scheme",
+    "variables": {
+        "background": "#1E1E1E",
+        "foreground": "#D4D4D4",
+        "comment": "#57A64A",
+        "string": "#D69D85"
+    },
+    "globals": {
+        "background": "var(background)",
+        "foreground": "var(foreground)",
+        "line_highlight": "#333333",
+        "selection": "#264F78",
+        "selection_border": "var(background)",
+        "inactive_selection": "#333842",
+        "find_highlight": "#FFFC00",
+        "find_highlight_foreground": "var(background)",
+        "stack_guide": "var(background)",
+        "active_guide": "#00AAFF",
+        "highlight": "var(line_highlight)",
+        "gutter": "var(background)",
+        "gutter_foreground": "var(foreground)",
+        "guide": "#404040",
+        "shadow": "var(background)"
+    },
+    "rules": [
+        {
+            "name": "Built-in function",
+            "scope": "source.c++ meta.function.c++ meta.block.c++ meta.block.c++ meta.function-call.c++ variable.function.c++",
+            "foreground": "#FF4500"
+        },
+        {
+            "name": "Data structure",
+            "scope": "source.c++ meta.function.c++ meta.block.c++ meta.block.c++",
+            "foreground": "#7FFF00"
+        },
+        {
+            "name": "Variable",
+            "scope": "source.c++ variable.other.c++",
+            "foreground": "#FFFF00"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+]]></content>
+    <tabTrigger>pragma</tabTrigger>
+    <scope>source.c++</scope>
+    <description>Optimization Pragmas for C++</description>
+</snippet>

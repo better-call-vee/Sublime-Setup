@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+#define TANVEE009
+
+#include "D:\CP\DEBUG_TEMPLATE.h"
+#include <bits/stdc++.h>
+using namespace std;
+
+#define MOD 1000000007
+#define INF 1e18
+#define int long long
+string nl = "\n";
+
+signed main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+#ifndef DEBUG_MODE
+    freopen("output.txt", "w", stdout);
+    freopen("input.txt", "r", stdin);
+    freopen("error.txt", "w", stderr);
+#endif
+
+    return 0;
+}
+]]></content>
+    <tabTrigger>comp</tabTrigger>
+    <scope>source.c++</scope>
+    <description>C++ Competitive Programming Template with pbds</description>
+</snippet>

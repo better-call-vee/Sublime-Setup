@@ -1,0 +1,46 @@
+[
+{
+    "keys" : ["alt+k"],
+    "command" : "move",
+    "args" : {"by" : "characters", "forward" : true}
+},
+ {"keys" : ["ctrl+shift+k"], "command" : "toggle_side_bar"},
+ {"keys" : ["ctrl+shift+n"], "command" : "side_bar_new_file"},
+ {"keys" : ["alt+f"], "command" : "format_whole_document"},
+ {"keys" : ["ctrl+t"], "command" : "insert_timestamp"},
+ {"keys" : ["ctrl+alt+a"], "command" : "find_all_under"},
+ {"keys" : ["ctrl+alt+shift+p"], "command" : "show_scope_name"},
+ {"keys" : ["alt+t"], "command" : "goto_line", "args" : {"line" : 10}}, {
+     "keys" : ["alt+d"],
+     "command" : "move",
+     "args" : {"by" : "lines", "forward" : true}
+ },
+ {
+     "keys" : ["alt+l"],
+     "command" : "move",
+     "args" : {"by" : "characters", "forward" : false}
+ },
+ {
+     "keys" : ["alt+u"],
+     "command" : "move",
+     "args" : {"by" : "lines", "forward" : false}
+ },
+
+ {"keys" : ["ctrl+m"], "command" : "toggle_build_system"}, {
+     "keys" : ["alt+1"],
+     "command" : "insert_snippet",
+     "args" : {"name" : "Packages/User/timeClockSnippet.sublime-snippet"}
+ },
+ {
+     "keys" : ["ctrl+shift+c"],
+     "command" : "toggle_comment",
+     "args" : {"block" : false}
+ },
+ {
+     "keys" : ["ctrl+shift+x"],
+     "command" : "toggle_comment",
+     "args" : {"block" : true}
+ },
+ {"keys" : ["ctrl+e"], "command" : "exit"},
+ {"keys" : ["ctrl+alt+s"], "command" : "select_lines"}
+]

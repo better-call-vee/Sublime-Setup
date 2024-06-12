@@ -1,0 +1,6 @@
+{
+    "cmd": ["mingw32-make", "run"],
+    "selector": "source.cpp",
+    "working_dir": "${file_path}",
+    "shell": true
+}

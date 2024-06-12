@@ -1,0 +1,54 @@
+{
+    "bracket_styles": {
+        "default": {
+            "icon": "dot",
+            "color": "rgba(255, 0, 0, 0.5)",
+            "style": "solid"
+        },
+        "unmatched": {
+            "icon": "question",
+            "color": "rgba(0, 255, 0, 0.5)",
+            "style": "solid"
+        },
+        "curly": {
+            "icon": "curly_bracket",
+            "color": "rgba(0, 0, 255, 0.5)",
+            "style": "solid"
+        },
+        "round": {
+            "icon": "round_bracket",
+            "color": "rgba(255, 255, 0, 0.5)",
+            "style": "solid"
+        },
+        "square": {
+            "icon": "square_bracket",
+            "color": "rgba(0, 255, 255, 0.5)",
+            "style": "solid"
+        },
+        "angle": {
+            "icon": "angle_bracket",
+            "color": "rgba(255, 0, 255, 0.5)",
+            "style": "solid"
+        },
+        "tag": {
+            "icon": "tag",
+            "color": "rgba(128, 0, 0, 0.5)",
+            "style": "solid"
+        },
+        "quote": {
+            "icon": "quote",
+            "color": "rgba(0, 128, 0, 0.5)",
+            "style": "solid"
+        },
+        "double_quote": {
+            "icon": "double_quote",
+            "color": "rgba(0, 0, 128, 0.5)",
+            "style": "solid"
+        },
+        "single_quote": {
+            "icon": "single_quote",
+            "color": "rgba(128, 128, 0, 0.5)",
+            "style": "solid"
+        }
+    }
+}

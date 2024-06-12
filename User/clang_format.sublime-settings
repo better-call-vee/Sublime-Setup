@@ -1,0 +1,4 @@
+{
+    "binary": "clang-format.exe",
+    "style": "{BasedOnStyle: LLVM, IndentWidth: 4, BreakBeforeBraces: Custom, BraceWrapping: {AfterFunction: false}, SpaceBeforeParens: Never, AllowShortIfStatementsOnASingleLine: true, AllowShortLoopsOnASingleLine: true}"
+}

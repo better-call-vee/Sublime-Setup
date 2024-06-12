@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+const int mod = 1000000007;
+]]></content>
+    <tabTrigger>mod</tabTrigger>
+    <description>Define a constant integer with mod value</description>
+</snippet>

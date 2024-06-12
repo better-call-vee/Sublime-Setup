@@ -1,0 +1,10 @@
+{
+    "color_scheme": "Packages/User/SublimeLinter/monocyanide (SL).tmTheme",
+    "filetypes": ["source.c", "source.c++", "source.java", "source.python", "source.js", "source.php"],
+    "colors":
+    {
+        "variable": "#FF6347",
+        "type": "#20B2AA",
+        "function": "#FFD700"
+    }
+}

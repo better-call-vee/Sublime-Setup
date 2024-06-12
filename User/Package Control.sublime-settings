@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"A File Icon",
+		"BracketHighlighter",
+		"Brackets Color Scheme",
+		"C Improved",
+		"Clang Format",
+		"FileIcons",
+		"Git",
+		"GitGutter",
+		"GitHub Theme",
+		"InsertDate",
+		"Material Theme",
+		"Monocyanide Colorscheme",
+		"Package Control",
+		"SideBarEnhancements",
+		"SideBarTools",
+		"Silence Color Scheme",
+		"SublimeCodeIntel",
+		"SyntaxHighlighter Reloaded Color Scheme",
+		"Theme - Cyanide",
+		"Visual Studio Dark",
+	],
+	"in_process_packages":
+	[
+	],
+}

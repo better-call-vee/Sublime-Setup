@@ -1,0 +1,15 @@
+{
+    "variables": {},
+    "globals": {
+        "background": "#1E1E1E"
+    },
+    "rules": [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "foreground": "#90EE90"
+            }
+        }
+    ]
+}

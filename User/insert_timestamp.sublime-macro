@@ -1,0 +1,4 @@
+[
+    {"command": "insert_snippet", "args": {"name": "Packages/User/cppfast.sublime-snippet"}},
+    {"command": "insert_timestamp"}
+]

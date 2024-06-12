@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+typedef __int128 ll;
+
+istream &operator>>(istream &in, ll &l) {
+    long long val;
+    in >> val;
+    l = val;
+    return in;
+}
+
+ostream &operator<<(ostream &os, ll l) {
+    if(l == 0) return os << "0";
+    if(l < 0) {
+        os << "-";
+        l = -l;
+    }
+    string reversed;
+    while(l > 0) {
+        reversed += '0' + l % 10;
+        l /= 10;
+    }
+    reverse(reversed.begin(), reversed.end());
+    for(auto it = reversed.begin(); it != reversed.end(); ++it) os << *it;
+    return os;
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>int128</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c++</scope>
+    <description>__int128 I/O Stream Operators</description>
+</snippet>

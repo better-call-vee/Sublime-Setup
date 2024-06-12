@@ -1,0 +1,20 @@
+{
+    "color_scheme": "Packages/Silence Color Scheme/silence-dark.tmTheme",
+    "darkmatter_sidebar_font_large": true,
+    "darkmatter_sidebar_tree_large": true,
+    "darkmatter_tabs_auto_width": true,
+    "darkmatter_tabs_font_normal": true,
+    "darkmatter_tabs_large": true,
+    "font_size": 12,
+    "font_face": "Fira Code",
+    "font_options": [
+        "subpixel_antialias"
+    ],
+    "ignored_packages": [
+        "Vintage",
+    ],
+    "save_on_focus_lost": true,
+    "theme": "Default Dark.sublime-theme",
+    "remember_open_files": true,
+    "index_files": true,
+}
